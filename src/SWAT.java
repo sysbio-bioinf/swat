@@ -3,7 +3,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -381,7 +380,7 @@ public class SWAT {
 	public boolean wb_check(String wb) {
 		Pattern r = Pattern.compile("[KSYMWRBDHVN]");
 		Matcher m = r.matcher(wb);
-		// System.out.println("wild base");
+		// System.out.println(m.find());
 		return m.find();
 	}
 

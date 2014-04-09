@@ -99,7 +99,7 @@ public class Allookup {
 		case 'H': return "ACU";
 		case 'V': return "GCA";
 		case 'N': return "AGCU";
-		default: return "";
+		default: return ""+wb;
 		}
 	}
 
